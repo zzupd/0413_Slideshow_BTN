@@ -22,9 +22,9 @@ ul                      { list-style: none; }
 /* Guide Line */
 div#wrap              { border: 2px solid #000; }
 div#mainSlide       { border: 2px solid #000; }
-div#slideArea        { border: 2px solid #aaa; }
+/*div#slideArea        { border: 2px solid #aaa; }*/
 /*div.btnArrow         { border: 2px solid #08f; }*/
-div#shuttleFrame   { border: 4px solid #f80;}
+/*div#shuttleFrame   { border: 4px solid #f80;}*/
 /* Guide Line */
 
 
@@ -64,6 +64,8 @@ div.btnArrow span {
     line-height: 25px;
     border-radius: 30px;
     background-color: rgba(0, 136, 255, 0.6);
+
+    cursor: pointer;
     display: inline-block;
 
     position: relative;
@@ -96,6 +98,7 @@ div.slideBox {
     text-align: center;
     line-height: 100px;
     border: 1px solid #ddd;
+    margin: 0 8px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 /* 슬라이드영역 */
